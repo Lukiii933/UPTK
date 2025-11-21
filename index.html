@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Візитна картка - Павло Лукій</title>
+
+    <style>
+/* Стилі для body */
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #d9f0f0, #c3e8ff);
+            font-family: "Segoe UI", sans-serif;
+            color: #222;
+        }
+/* Стилі для header */
+        header {
+            text-align: center;
+            padding: 25px 0;
+            background: linear-gradient(to right, #a7ffeb, #e0f7fa);
+            border-bottom: 5px solid #00796b;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+        }
+/* Стилі для h1 який в header */
+        header h1 {
+            font-size: 52px;
+            color: #00695c;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #004d40;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 0 12px;
+            padding: 8px 14px;
+            font-weight: bold;
+            border-radius: 8px;
+            background: #b2fef7;
+            color: #004d40;
+            border: 2px solid transparent;
+            transition: .3s;
+        }
+
+        nav a:hover {
+            background: #26a69a;
+            color: #fff;
+            border-color: #004d40;
+        }
+
+        marquee {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        section {
+            width: 85%;
+            margin: 25px auto;
+            background: #ffffff;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 8px 18px rgba(0,0,0,0.1);
+            border: 3px solid #009688;
+        }
+
+        h2 {
+            text-align: center;
+            color: #004d40;
+            margin-bottom: 15px;
+            font-size: 30px;
+            text-shadow: 1px 1px 0 #b2dfdb;
+        }
+
+        ul, ol, dl {
+            font-size: 20px;
+            padding-left: 25px;
+        }
+
+        dl dt {
+            margin-top: 10px;
+            font-size: 22px;
+            color: #00695c;
+        }
+
+        dl dd {
+            margin-left: 20px;
+            padding: 5px 10px;
+            border-left: 4px solid #26a69a;
+        }
+
+        #about {
+            border-style: dashed;
+            background: linear-gradient(135deg, #ffffff, #e0ffff);
+        }
+
+        #hobby {
+            border-style: double;
+            background: linear-gradient(135deg, #ffffff, #e8f5e9);
+        }
+
+        #friends {
+            border-style: groove;
+            background: linear-gradient(135deg, #ffffff, #fff8e1);
+        }
+
+        #contacts {
+            border-style: ridge;
+            background: linear-gradient(135deg, #ffffff, #e3f2fd);
+        }
+
+        #photos {
+            border-style: outset;
+            background: linear-gradient(135deg, #ffffff, #fce4ec);
+        }
+
+        img {
+            display: block;
+            margin: 15px auto;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            width: 300px;
+            transition: .3s;
+        }
+
+        img:hover {
+            transform: scale(1.06);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            background: linear-gradient(to right, #004d40, #00695c);
+            color: #fff;
+            font-size: 18px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+        footer a {
+            color: #ffe082;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+<body>
+
+<!-- Стилі для header -->
+<marquee behavior="scroll" direction="left" style="color:#ffd600;">Лукій Павло</marquee>
+<marquee behavior="scroll" direction="right" style="color:#4caf50;">Лукій Павло</marquee>
+
+<header>
+    <h1>Павло Лукій</h1>
+    <p>Початківець у світі веб-розробки</p>
+
+
+    <nav>
+        <a href="#about">Про мене</a>
+        <a href="#hobby">Мої захоплення</a>
+        <a href="#friends">Друзі</a>
+        <a href="#contacts">Контакти</a>
+        <a href="#photos">Фото</a>
+        <a href="#top">Вгору</a>
+    </nav>
+</header>
+
+<a id="top"></a>
+
+<section id="about">
+    <h2>Про мене</h2>
+    <ul>
+        <li>Люблю мотоцикли</li>
+        <li>Люблю грати в ігри</li>
+        <li>Люблю спорт</li>
+    </ul>
+</section>
+
+<section id="hobby">
+    <h2>Мої захоплення</h2>
+    <dl>
+        <dt>Мотоцикли</dt>
+        <dd>Подобається їздити та цікавитися технікою.</dd>
+
+        <dt>Ігри</dt>
+        <dd>Люблю комп’ютерні ігри та змагальні жанри.</dd>
+
+        <dt>Спорт</dt>
+        <dd>Підтримую себе у формі й стежу за фізичним розвитком.</dd>
+    </dl>
+</section>
+
+<section id="friends">
+    <h2>Мої друзі</h2>
+    <ol>
+        <li>Павло</li>
+        <li>Артем</li>
+        <li>Юра</li>
+    </ol>
+</section>
+
+<section id="contacts">
+    <h2>Контактна інформація</h2>
+    <h3>Адреса</h3>
+    <p>смт. Гусятин, вул. Незалежності, 666</p>
+
+    <h3>Номер телефону</h3>
+    <p>+380 98 123 45 67</p>
+</section>
+
+<section id="photos">
+    <h2>Фото</h2>
+
+    <img src="images (3).jpg" alt="Фото 1">
+    <span>Це моє улюблене фото.</span>
+
+    <img src="images (4).jpg" alt="Фото 2">
+    <span>Фото</span>
+
+    <img src="images (5).jpg" alt="Фото 3">
+    <span>Ще одне фото</span>
+</section>
+
+<footer>
+    © 2025 Павло Лукій | <a href="#top">Вгору</a>
+</footer>
+
+</body>
+</html>
